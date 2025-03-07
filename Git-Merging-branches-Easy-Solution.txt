@@ -1,0 +1,11 @@
+git init
+echo "Your Name" >> Assessment.txt
+git add Assessment.txt
+git commit -m "my name"
+git branch tmpbranch
+git checkout tmpbranch
+echo "Your Contact Number" >> Assessment.txt
+git add Assessment.txt
+git commit -m "my number"
+git checkout main
+git merge tmpbranch
